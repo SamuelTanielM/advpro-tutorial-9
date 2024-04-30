@@ -34,6 +34,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let payment_service = MyPaymentService::default();
     let transaction_service = MyTransactionService::default();
     let chat_service = MyChatService::default();
+
     Server::builder()
         .add_service(PaymentServiceServer::new(payment_service))
         .add_service(TransactionServiceServer::new(transaction_service))
