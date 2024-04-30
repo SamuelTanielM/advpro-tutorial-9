@@ -1,0 +1,428 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      The system is: Windows - 10.0.22622 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 30/04/2024 20:49:05.
+      Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.60
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/3.29.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 30/04/2024 20:49:07.
+      Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.03
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/3.29.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-pi9k8u"
+      binary: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-pi9k8u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-pi9k8u'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_4fde9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 30/04/2024 20:49:09.
+        Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi9k8u\\cmTC_4fde9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4fde9.dir\\Debug\\".
+          Creating directory "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi9k8u\\Debug\\".
+          Creating directory "cmTC_4fde9.dir\\Debug\\cmTC_4fde9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4fde9.dir\\Debug\\cmTC_4fde9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fde9.dir\\Debug\\\\" /Fd"cmTC_4fde9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\samue\\Documents\\cmake-3.29.2-windows-x86_64\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi9k8u\\Debug\\cmTC_4fde9.exe" /INCREMENTAL /ILK:"cmTC_4fde9.dir\\Debug\\cmTC_4fde9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-pi9k8u/Debug/cmTC_4fde9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-pi9k8u/Debug/cmTC_4fde9.lib" /MACHINE:X64  /machine:x64 cmTC_4fde9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4fde9.vcxproj -> C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi9k8u\\Debug\\cmTC_4fde9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4fde9.dir\\Debug\\cmTC_4fde9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4fde9.dir\\Debug\\cmTC_4fde9.tlog\\cmTC_4fde9.lastbuildstate".
+        Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pi9k8u\\cmTC_4fde9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30148.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-hiinsm"
+      binary: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-hiinsm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-hiinsm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_11452.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 30/04/2024 20:49:10.
+        Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hiinsm\\cmTC_11452.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_11452.dir\\Debug\\".
+          Creating directory "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hiinsm\\Debug\\".
+          Creating directory "cmTC_11452.dir\\Debug\\cmTC_11452.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_11452.dir\\Debug\\cmTC_11452.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11452.dir\\Debug\\\\" /Fd"cmTC_11452.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro "C:\\Users\\samue\\Documents\\cmake-3.29.2-windows-x86_64\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hiinsm\\Debug\\cmTC_11452.exe" /INCREMENTAL /ILK:"cmTC_11452.dir\\Debug\\cmTC_11452.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-hiinsm/Debug/cmTC_11452.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-hiinsm/Debug/cmTC_11452.lib" /MACHINE:X64  /machine:x64 cmTC_11452.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_11452.vcxproj -> C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hiinsm\\Debug\\cmTC_11452.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_11452.dir\\Debug\\cmTC_11452.tlog\\unsuccessfulbuild".
+          Touching "cmTC_11452.dir\\Debug\\cmTC_11452.tlog\\cmTC_11452.lastbuildstate".
+        Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hiinsm\\cmTC_11452.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:24 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30148.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:129 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-o1ro1v"
+      binary: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-o1ro1v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-o1ro1v'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_4758d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 30/04/2024 20:49:12.
+        Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\cmTC_4758d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4758d.dir\\Debug\\".
+          Creating directory "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\Debug\\".
+          Creating directory "cmTC_4758d.dir\\Debug\\cmTC_4758d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4758d.dir\\Debug\\cmTC_4758d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4758d.dir\\Debug\\\\" /Fd"cmTC_4758d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\src.c"
+          src.c
+        C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\cmTC_4758d.vcxproj]
+        Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\cmTC_4758d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\cmTC_4758d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1ro1v\\cmTC_4758d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.72
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:129 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-3q9vi1"
+      binary: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-3q9vi1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-3q9vi1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3a6f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 30/04/2024 20:49:13.
+        Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\cmTC_3a6f8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3a6f8.dir\\Debug\\".
+          Creating directory "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\Debug\\".
+          Creating directory "cmTC_3a6f8.dir\\Debug\\cmTC_3a6f8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3a6f8.dir\\Debug\\cmTC_3a6f8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a6f8.dir\\Debug\\\\" /Fd"cmTC_3a6f8.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\Debug\\cmTC_3a6f8.exe" /INCREMENTAL /ILK:"cmTC_3a6f8.dir\\Debug\\cmTC_3a6f8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-3q9vi1/Debug/cmTC_3a6f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-3q9vi1/Debug/cmTC_3a6f8.lib" /MACHINE:X64  /machine:x64 cmTC_3a6f8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\cmTC_3a6f8.vcxproj]
+        Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\cmTC_3a6f8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\cmTC_3a6f8.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3q9vi1\\cmTC_3a6f8.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.79
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/samue/Documents/cmake-3.29.2-windows-x86_64/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:129 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-losy73"
+      binary: "C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-losy73"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-losy73'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b1ece.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 30/04/2024 20:49:14.
+        Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\cmTC_b1ece.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b1ece.dir\\Debug\\".
+          Creating directory "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\Debug\\".
+          Creating directory "cmTC_b1ece.dir\\Debug\\cmTC_b1ece.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b1ece.dir\\Debug\\cmTC_b1ece.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1ece.dir\\Debug\\\\" /Fd"cmTC_b1ece.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\Debug\\cmTC_b1ece.exe" /INCREMENTAL /ILK:"cmTC_b1ece.dir\\Debug\\cmTC_b1ece.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-losy73/Debug/cmTC_b1ece.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/samue/IdeaProjects/tutorial8/grpc-tutorial/target/debug/build/prost-build-6c4e2337a1369ee9/out/build/CMakeFiles/CMakeScratch/TryCompile-losy73/Debug/cmTC_b1ece.lib" /MACHINE:X64  /machine:x64 cmTC_b1ece.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\cmTC_b1ece.vcxproj]
+        Done Building Project "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\cmTC_b1ece.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\cmTC_b1ece.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\samue\\IdeaProjects\\tutorial8\\grpc-tutorial\\target\\debug\\build\\prost-build-6c4e2337a1369ee9\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-losy73\\cmTC_b1ece.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 1
+...

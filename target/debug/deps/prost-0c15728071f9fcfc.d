@@ -1,0 +1,11 @@
+C:\Users\samue\IdeaProjects\tutorial8\grpc-tutorial\target\debug\deps\libprost-0c15728071f9fcfc.rmeta: C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\lib.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\error.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\message.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\types.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\encoding.rs
+
+C:\Users\samue\IdeaProjects\tutorial8\grpc-tutorial\target\debug\deps\libprost-0c15728071f9fcfc.rlib: C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\lib.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\error.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\message.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\types.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\encoding.rs
+
+C:\Users\samue\IdeaProjects\tutorial8\grpc-tutorial\target\debug\deps\prost-0c15728071f9fcfc.d: C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\lib.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\error.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\message.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\types.rs C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\encoding.rs
+
+C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\lib.rs:
+C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\error.rs:
+C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\message.rs:
+C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\types.rs:
+C:\Users\samue\.cargo\registry\src\index.crates.io-6f17d22bba15001f\prost-0.10.4\src\encoding.rs:
